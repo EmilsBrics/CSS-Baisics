@@ -9,19 +9,46 @@
 /*Global styles
 -------------------------*/
 body{
+	font-family: 'Baloo Tamma 2', cursive;
 
+}
+h1, h2 {
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+}
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 40px;
+}
+a{
+	color: #F4AC45;
+}
+a:hover {
+	text-decoration: none;
 }
 
 /*Header and Footer
 -------------------------*/
 header, footer {
 	background: #253237;
+	color: #FFFFFF;
+}
+
+header h1, header h2{
+	color: #9DB4C0;
 }
 
 /*Work Expirience
 -------------------------*/
+.work {
+	background: #9DB4C0;
+}
 
 /*Education
 -------------------------*/
-
+.education {
+	background: #586BA4;
+}
 
