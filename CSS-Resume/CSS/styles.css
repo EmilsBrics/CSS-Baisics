@@ -8,9 +8,15 @@
 
 /*Global styles
 -------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body{
 	font-family: 'Baloo Tamma 2', cursive;
-
+	margin: 0;
 }
 h1, h2 {
 	font-family: 'Lobster', cursive;
@@ -21,6 +27,7 @@ h1 {
 }
 h2 {
 	font-size: 40px;
+	margin-top: 0;
 }
 a{
 	color: #F4AC45;
@@ -28,18 +35,46 @@ a{
 a:hover {
 	text-decoration: none;
 }
-
+.content-wrap{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: auto;
+}
+.col-narrow{
+	width: 30%;
+	float: left;
+	min-height: 175px;
+}
+.col-wide{
+	width: 70%;
+	float: left;
+	padding-left: 50px;
+}
 /*Header and Footer
 -------------------------*/
 header, footer {
 	background: #253237;
 	color: #FFFFFF;
 }
+/* header */
 
 header h1, header h2{
 	color: #9DB4C0;
+	margin: 0;
 }
+.profile-img {
+	border-radius: 50%;
 
+}
+/* footer */
+footer {
+	text-align: center;
+}
+.contact-info a{
+	padding: 0 10px;
+	display: inline-block;
+}
 /*Work Expirience
 -------------------------*/
 .work {
